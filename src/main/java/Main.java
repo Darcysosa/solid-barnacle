@@ -6,12 +6,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @EnableAutoConfiguration
-public class Main {
-    @RequestMapping("/")
-    String home() {
-        return "mi primer api";
-    }
-    
 <html class="no-js"> <!--<![endif]-->
     <head>
         <title>Tecnimotores SOSA</title>
